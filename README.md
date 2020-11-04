@@ -11,3 +11,9 @@ I would like to see a list of my bookmarks
 |Objects  |     Methods |
 |---------|-------------|
 |bookmark |list_bookmark|
+
+#How to use the setup the Database
+1. Connect using the *psql* command
+2. Create the database using the command *CREATE DATABASE bookmark_manager;*
+3. Connect to the database using *\c bookmark_manager*
+4. Run the query saved in the 01_create_bookmarks_table.sql file which is in db/migrations

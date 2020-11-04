@@ -11,6 +11,7 @@ class BookmarkManager < Sinatra::Base
       'www.soundcloud.com',
       'www.bandcamp.com'
     ]
+
   end
 
   run! if app_file == $0
